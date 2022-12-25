@@ -7,9 +7,8 @@ Features
 Getting Started
 1. Clone the repository to your local machine
 2. Obtain an API key from OpenWeatherMap by signing up for a free account (https://home.openweathermap.org/users/sign_up)
-3. Create a file called secrets.js and add the following line of code, replacing YOUR_API_KEY with your actual API key:
-Copy code
-const apiKey = "YOUR_API_KEY";
+3. Replace YOUR_API_KEY with your actual API key in the file script.js:
+
 Open the index.html file in your web browser to view the website
 Usage
 Enter a city in search bar and press the search button to view the current weather and forecast for the location. 
