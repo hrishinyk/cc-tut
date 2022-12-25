@@ -1,23 +1,15 @@
-# Simple Weather App Tutorial
+Welcome to the Simple Weather Static Website! This website allows you to check the current weather and forecast for a specific location using data from OpenWeatherMap.
 
-<p align="left">
-  <a href="https://discord.gg/fPrdqh3Zfu" alt="Dev Pro Tips Discussion & Support Server">
-    <img src="https://img.shields.io/discord/819650821314052106?color=7289DA&logo=discord&logoColor=white&style=for-the-badge"/></a>
-</p>
+Features
+1.View current weather conditions, including temperature, humidity, and wind speed
+2.Search for a specific location using city
 
-Simple weather app using HTML, CSS, and JavaScript
-
-![image](https://user-images.githubusercontent.com/20955511/111051345-0bcff300-845b-11eb-80ca-717a9a838e2c.png)
-
-## Tutorial
-
-Weather App Tutorial 👉 https://youtube.com/watch?v=WZNG8UomjSI
-
-Geolocation Tutorial 👉 https://youtube.com/watch?v=JdJ2VBbYYTQ
-
-## Demo site
-
-Without Geolocation 👉 https://freshidea.com/jonah/app/weather
-
-With Geolocation 👉 https://freshidea.com/jonah/app/weather/geolocation
-# weatherapp
+Getting Started
+1. Clone the repository to your local machine
+2. Obtain an API key from OpenWeatherMap by signing up for a free account (https://home.openweathermap.org/users/sign_up)
+3. Create a file called secrets.js and add the following line of code, replacing YOUR_API_KEY with your actual API key:
+Copy code
+const apiKey = "YOUR_API_KEY";
+Open the index.html file in your web browser to view the website
+Usage
+Enter a city in search bar and press the search button to view the current weather and forecast for the location. 
